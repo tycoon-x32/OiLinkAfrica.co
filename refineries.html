@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oilink Africa | Refineries</title>
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=PC6vWjFReVm8&format=png&color=000000" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .overlay-gradient {
+      background: linear-gradient(to right, rgba(0,0,0,0.9) 30%, rgba(0,0,0,0.5) 100%);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Hero Section -->
+  <section class="relative w-full h-screen">
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+      <source src="https://media.istockphoto.com/id/1262189544/video/extreme-close-up-of-pouring-oil-slow-motion-footage.mp4?s=mp4-640x640-is&k=20&c=hQDv7wARTXqaR7i0nUrr_0ArbXvnGGkp2yfaQRyBYP0=" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 overlay-gradient flex flex-col justify-center px-6 z-10 text-left space-y-6 max-w-6xl mx-auto">
+      <div>
+        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">Powering Africa Through Precision Refining</h2>
+        <p class="text-lg mt-4 max-w-xl">We operate advanced refineries focused on safety, efficiency, and product quality.</p>
+        <a href="#refinery-types" class="inline-block mt-6 bg-black text-white font-bold px-8 py-3 rounded text-lg hover:bg-gray-800 transition">EXPLORE REFINERIES</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products for Sale -->
+  <section id="refinery-types" class="py-16 px-6 bg-gray-950">
+    <h2 class="text-3xl font-bold mb-10 text-center">Products for Sale</h2>
+    <div class="grid md:grid-cols-3 gap-10 text-center">
+      <div>
+        <img src="https://th.bing.com/th/id/OIP.ClSoizo2psZrvTIHE_BaFwHaEo?w=292&h=182&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3" alt="Crude Oil" class="mx-auto rounded mb-4">
+        <h3 class="text-xl font-bold">🛢️ Crude Oil</h3>
+        <p class="text-gray-300 mt-2">High-quality crude oil available for export and processing.</p>
+        <a href="#paypal-section" class="mt-4 inline-block px-6 py-2 bg-red-500 hover:bg-red-600 rounded font-bold">Add to Cart</a>
+      </div>
+      <div>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.WvTsl8RbfomHUO8zlAIoxAHaEJ?w=1360&h=762&rs=1&pid=ImgDetMain&o=7&rm=3" alt="LPG" class="mx-auto rounded mb-4">
+        <h3 class="text-xl font-bold">🔥 LPG</h3>
+        <p class="text-gray-300 mt-2">Liquefied Petroleum Gas for industrial and household use.</p>
+        <a href="#paypal-section" class="mt-4 inline-block px-6 py-2 bg-red-500 hover:bg-red-600 rounded font-bold">Add to Cart</a>
+      </div>
+      <div>
+        <img src="https://img.freepik.com/premium-photo/petrol-is-combustible-mixture-gasoline-oil-motor-fuel-diesel-engine-liquid-viscous-mixture-flammable-gas-black-gold_771426-9789.jpg?w=740" alt="Gasoline" class="mx-auto rounded mb-4">
+        <h3 class="text-xl font-bold">⛽ Gasoline</h3>
+        <p class="text-gray-300 mt-2">Premium unleaded gasoline suitable for various engines.</p>
+        <a href="#paypal-section" class="mt-4 inline-block px-6 py-2 bg-red-500 hover:bg-red-600 rounded font-bold">Add to Cart</a>
+      </div>
+      <div>
+        <img src="https://img.freepik.com/premium-photo/closeup-liquid-pouring-into-bowl-suitable-food-cooking-concepts_153912-70893.jpg" alt="Petrochemicals" class="mx-auto rounded mb-4">
+        <h3 class="text-xl font-bold">🧪 Petrochemicals</h3>
+        <p class="text-gray-300 mt-2">Essential feedstock for chemical and plastic industries.</p>
+        <a href="#paypal-section" class="mt-4 inline-block px-6 py-2 bg-red-500 hover:bg-red-600 rounded font-bold">Add to Cart</a>
+      </div>
+      <div>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.RQBB6eik1bAvtI8DwpDCaAHaHa?w=2000&h=2000&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lubricants" class="mx-auto rounded mb-4">
+        <h3 class="text-xl font-bold">🧴 Lubricants</h3>
+        <p class="text-gray-300 mt-2">Industrial and automotive lubricants in bulk and retail.</p>
+        <a href="#paypal-section" class="mt-4 inline-block px-6 py-2 bg-red-500 hover:bg-red-600 rounded font-bold">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section class="py-16 px-6 bg-gray-950">
+    <h2 class="text-3xl font-bold text-center mb-6">Book a Refinery Service</h2>
+    <form action="mailto:leemessi632@gmail.com" method="post" enctype="text/plain" class="max-w-xl mx-auto space-y-4">
+      <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 rounded bg-gray-800 text-white" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 rounded bg-gray-800 text-white" required>
+      <input type="text" name="company" placeholder="Company Name" class="w-full px-4 py-2 rounded bg-gray-800 text-white">
+      <select name="service" class="w-full px-4 py-2 rounded bg-gray-800 text-white">
+        <option>Refining Consultation</option>
+        <option>Petroleum Supply</option>
+        <option>Maintenance Support</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="Additional Message..." class="w-full px-4 py-2 rounded bg-gray-800 text-white"></textarea>
+      <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-2 rounded">Send Request</button>
+    </form>
+  </section>
+
+  <!-- PayPal Button -->
+  <section id="paypal-section" class="py-12 px-6 text-center bg-gray-900">
+    <h2 class="text-2xl font-bold mb-4">Quick Consultation Payment</h2>
+    <form action="https://www.paypal.com/ncp/payment/6Q59HZJHX3KE8" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+      <input class="pp-6Q59HZJHX3KE8" type="submit" value="Buy Now" />
+      <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="cards" />
+      <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+    </form>
+    <style>
+      .pp-6Q59HZJHX3KE8 {
+        text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;
+        font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;
+      }
+    </style>
+  </section>
+</body>
+</html>
